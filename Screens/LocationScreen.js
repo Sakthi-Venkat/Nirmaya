@@ -53,7 +53,7 @@ const LocationScreen = () => {
     const radius = 1000; // Search radius in meters
 
     try {
-      const response = await axios.get(`https://nominatim.openstreetmap.org/search`, {
+      const response = await axios.get('https://jsonplaceholder.typicode.com/posts', {
         params: {
           q: category,
           format: 'json',
