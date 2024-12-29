@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Alert, FlatList } from "react-native";
 import MapView, { Marker } from "react-native-maps";
+import { useNavigation } from '@react-navigation/native';
+import MapComponent from '../components/MapComponent';
 import Geolocation from '@react-native-community/geolocation';
 import axios from 'axios';
 
